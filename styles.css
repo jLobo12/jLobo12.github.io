@@ -1,0 +1,89 @@
+#contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#ad {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#formulario {
+    display: grid;
+}
+
+input {
+    border: 2px solid #149BF3;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    max-width: 190px;
+    margin-bottom: 5%;
+}
+
+input:active {
+    box-shadow: 2px 2px 15px #4F58FD inset;
+}
+
+#ErrorCredenciales {
+    color: red;
+    margin: auto;
+}
+
+#Login {
+    align-items: center;
+    appearance: none;
+    background-color: #3EB2FD;
+    background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd, sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s, background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+    margin-bottom: 5%;
+}
+
+#Login:active,
+#Login:focus {
+    outline: none;
+}
+
+#Login:hover {
+    background-position: -20px -20px;
+}
+
+#Login:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+
+#Bienvenida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    margin: auto;
+}
